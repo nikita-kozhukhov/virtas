@@ -17,12 +17,14 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
     alias: {
-      components: path.resolve(__dirname, 'src/components'),
+      app: path.resolve(__dirname, 'src/app'),
+      store: path.resolve(__dirname, 'src/app/store'),
+      styles: path.resolve(__dirname, 'src/app/styles'),
       pages: path.resolve(__dirname, 'src/pages'),
-      constants: path.resolve(__dirname, 'src/constants'),
-      ui: path.resolve(__dirname, 'src/ui'),
-      store: path.resolve(__dirname, 'src/store'),
-      styles: path.resolve(__dirname, 'src/assets/styles'),
+      widgets: path.resolve(__dirname, 'src/widgets'),
+      features: path.resolve(__dirname, 'src/features'),
+      entities: path.resolve(__dirname, 'src/entities'),
+      shared: path.resolve(__dirname, 'src/shared'),
     },
   },
 

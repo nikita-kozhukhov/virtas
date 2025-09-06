@@ -2,8 +2,12 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "jsx": "react-jsx",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "jsx": "preserve",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -14,9 +18,50 @@
     "isolatedModules": true,
     "resolveJsonModule": true,
     "baseUrl": "./src",
-    "paths": {},
-    "outDir": "./dist"
+    "paths": {
+      "app/*": [
+        "app/*"
+      ],
+      "store/*": [
+        "app/store/*"
+      ],
+      "styles/*": [
+        "app/styles/*"
+      ],
+      "pages/*": [
+        "pages/*"
+      ],
+      "widgets/*": [
+        "widgets/*"
+      ],
+      "features/*": [
+        "features/*"
+      ],
+      "entities/*": [
+        "entities/*"
+      ],
+      "shared/*": [
+        "shared/*"
+      ]
+    },
+    "outDir": "./dist",
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["src", "src/types"],
-  "exclude": ["node_modules", "dist", "build"]
+  "include": [
+    "src",
+    "src/app/types",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
 }
