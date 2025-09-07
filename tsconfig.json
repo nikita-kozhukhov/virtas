@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "preserve",
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -19,30 +15,14 @@
     "resolveJsonModule": true,
     "baseUrl": "./src",
     "paths": {
-      "app/*": [
-        "app/*"
-      ],
-      "store/*": [
-        "app/store/*"
-      ],
-      "styles/*": [
-        "app/styles/*"
-      ],
-      "pages/*": [
-        "pages/*"
-      ],
-      "widgets/*": [
-        "widgets/*"
-      ],
-      "features/*": [
-        "features/*"
-      ],
-      "entities/*": [
-        "entities/*"
-      ],
-      "shared/*": [
-        "shared/*"
-      ]
+      "app/*": ["app/*"],
+      "store/*": ["app/store/*"],
+      "styles/*": ["app/styles/*"],
+      "pages/*": ["pages/*"],
+      "widgets/*": ["widgets/*"],
+      "features/*": ["features/*"],
+      "entities/*": ["entities/*"],
+      "shared/*": ["shared/*"]
     },
     "outDir": "./dist",
     "allowJs": true,
@@ -54,14 +34,6 @@
       }
     ]
   },
-  "include": [
-    "src",
-    "src/app/types",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "build"
-  ]
+  "include": ["src", "src/app/types", ".next/types/**/*.ts"],
+  "exclude": ["node_modules", "dist", "build"]
 }

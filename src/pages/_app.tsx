@@ -1,8 +1,10 @@
-import type { AppProps } from 'next/app';
 import { Provider } from 'react-redux';
+
 import { store } from 'store/store';
 
 import { MainLayout } from 'widgets/main-layout';
+
+import type { AppProps } from 'next/app';
 
 import 'styles/index.scss';
 

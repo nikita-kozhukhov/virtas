@@ -1,0 +1,1 @@
+export { transformClass } from './transformClass';

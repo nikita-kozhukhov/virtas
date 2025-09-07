@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
+
 import { Footer } from 'widgets/footer/ui/Footer';
-import { Header } from 'widgets/header/ui/Header';
+import { Header } from 'widgets/header';
 
 import styles from './MainLayout.module.scss';
 
