@@ -1,8 +1,13 @@
+import { DescriptionBlock } from 'widgets/description-block';
+import { FeedbackBlock } from 'widgets/feedback-block';
+import { InfoBlock } from 'widgets/info-block';
+
 export default function Index() {
   return (
     <>
-      <h1>Главная страница</h1>
-      <p>Добро пожаловать в Next.js 🚀</p>
+      <InfoBlock />
+      <DescriptionBlock />
+      <FeedbackBlock />
     </>
   );
 }

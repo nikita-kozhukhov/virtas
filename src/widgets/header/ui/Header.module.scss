@@ -3,4 +3,7 @@
 
 .header {
   @include flex-center;
+  font-size: 2rem;
+  gap: 3rem;
+  height: 10rem;
 }

@@ -3,4 +3,6 @@
 
 .footer {
   @include flex-center;
+  height: 10rem;
+  font-size: 2rem;
 }

@@ -1,5 +1,5 @@
 import styles from './DescriptionBlock.module.scss';
 
 export const DescriptionBlock = () => {
-  return <div className={styles['']}>тест</div>;
+  return <div className={styles['description-block']}>тест</div>;
 };
