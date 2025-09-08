@@ -1,0 +1,10 @@
+@use 'styles/variables' as *;
+@use 'styles/mixins' as *;
+
+.container {
+  @include flex-center;
+}
+
+.logo {
+  width: 70%;
+}

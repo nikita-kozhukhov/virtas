@@ -1,17 +1,15 @@
-import Link from 'next/link';
+import { Logo } from 'shared/ui/logo';
+import { ButtonsContainer } from 'widgets/buttons-container';
+import { Navigation } from 'widgets/navigation';
 
 import styles from './Header.module.scss';
 
-type HeaderProps = {
-  title?: string;
-};
-
-export const Header = ({ title }: HeaderProps) => {
+export const Header = () => {
   return (
     <header className={styles.header}>
-      {title && <h1>{title}</h1>}
-      <Link href="/">Главная</Link>
-      <Link href="/about">О нас</Link>
+      <Logo />
+      <Navigation />
+      <ButtonsContainer />
     </header>
   );
 };

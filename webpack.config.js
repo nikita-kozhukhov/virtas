@@ -20,6 +20,7 @@ module.exports = {
       app: path.resolve(__dirname, 'src/app'),
       store: path.resolve(__dirname, 'src/app/store'),
       styles: path.resolve(__dirname, 'src/app/styles'),
+      images: path.resolve(__dirname, 'src/app/images'),
       pages: path.resolve(__dirname, 'src/pages'),
       widgets: path.resolve(__dirname, 'src/widgets'),
       features: path.resolve(__dirname, 'src/features'),

@@ -90,6 +90,7 @@ export default [
       'jest.config.js',
       'jest.setup.js',
       'next.config.js',
+      'webpack.config.js',
     ],
   },
 ];

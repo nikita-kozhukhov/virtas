@@ -18,6 +18,7 @@
       "app/*": ["app/*"],
       "store/*": ["app/store/*"],
       "styles/*": ["app/styles/*"],
+      "images/*": ["app/images/*"],
       "pages/*": ["pages/*"],
       "widgets/*": ["widgets/*"],
       "features/*": ["features/*"],
