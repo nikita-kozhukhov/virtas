@@ -91,6 +91,8 @@ export default [
       'jest.setup.js',
       'next.config.js',
       'webpack.config.js',
+      '.env',
+      '/src/generated/prisma',
     ],
   },
 ];

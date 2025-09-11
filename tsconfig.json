@@ -16,10 +16,9 @@
     "baseUrl": "./src",
     "paths": {
       "app/*": ["app/*"],
-      "store/*": ["app/store/*"],
-      "styles/*": ["app/styles/*"],
-      "images/*": ["app/images/*"],
-      "pages/*": ["pages/*"],
+      "store/*": ["shared/store/*"],
+      "styles/*": ["shared/styles/*"],
+      "images/*": ["shared/assets/images/*"],
       "widgets/*": ["widgets/*"],
       "features/*": ["features/*"],
       "entities/*": ["entities/*"],
@@ -35,6 +34,6 @@
       }
     ]
   },
-  "include": ["src", "src/app/types", ".next/types/**/*.ts"],
+  "include": ["src", "src/shared/types", ".next/types/**/*.ts"],
   "exclude": ["node_modules", "dist", "build"]
 }

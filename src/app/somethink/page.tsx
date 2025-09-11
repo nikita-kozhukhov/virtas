@@ -1,13 +1,22 @@
-export const metadata = {
-  title: 'В разработке | Virtas',
-  description: 'В разработке.',
-};
+// import { redirect } from 'next/navigation';
 
-export default function Somethink() {
+// import { getServerSession } from 'next-auth';
+
+// import { authOptions } from 'app/api/auth/[...nextauth]/route';
+
+export default async function DashboardPage() {
+  // const session = await getServerSession(authOptions);
+
+  // if (!session) {
+  //   redirect('/auth/signin');
+  // }
+
   return (
-    <>
-      <h1>Somethink</h1>
-      <p>Somethink 🚀</p>
-    </>
+    <div>
+      <h1>
+        Добро пожаловать
+        {/* , {session.user?.email} */}
+      </h1>
+    </div>
   );
 }
