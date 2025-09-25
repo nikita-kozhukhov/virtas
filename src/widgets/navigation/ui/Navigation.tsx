@@ -10,7 +10,12 @@ export const Navigation = () => {
         {navLinksData.map((link) => {
           return (
             <li key={link.id}>
-              <Link title={link.title} href={link.href} color="red" />
+              <Link
+                title={link.title}
+                href={link.href}
+                color="red"
+                size="medium"
+              />
             </li>
           );
         })}

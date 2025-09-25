@@ -1,0 +1,22 @@
+@use 'styles/variables' as *;
+@use 'styles/mixins' as *;
+
+.about-container {
+  @include flex-column-top;
+  padding: 0 100px;
+
+  &--main-header {
+    font-size: 50px;
+    margin-top: 15px;
+  }
+
+  &--secondary-header {
+    font-size: 40px;
+    margin: 25px 0 5px;
+  }
+
+  &--text {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}

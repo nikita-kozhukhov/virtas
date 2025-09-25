@@ -2,7 +2,61 @@
 @use 'styles/mixins' as *;
 
 .info-block {
+  display: grid;
+  grid-template-columns: 50% 50%;
   width: 100%;
-  height: 100rem;
-  background-color: rgb(250, 237, 195);
+  height: calc(100vh - 17rem);
+}
+
+.text-block {
+  @include flex-column-left-top(2rem);
+  padding-left: 8rem;
+  padding-top: 12rem;
+
+  &--logo {
+    width: 65%;
+    margin-bottom: 5rem;
+  }
+
+  &--text {
+    font-size: 8rem;
+    font-weight: 600;
+    line-height: 10rem;
+    margin-bottom: 6rem;
+  }
+}
+
+.image-block {
+  position: relative;
+  height: 80%;
+  align-self: end;
+
+  &--image {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  &--buble {
+    width: calc(297px * 1.6);
+    height: calc(249px * 1.6);
+    position: absolute;
+    left: -9rem;
+    top: -11rem;
+  }
+
+  &--text {
+    width: 400px;
+    height: 250px;
+    z-index: 10;
+    position: relative;
+    left: auto;
+    right: auto;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Source Sans 3', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    @include flex-left;
+  }
 }

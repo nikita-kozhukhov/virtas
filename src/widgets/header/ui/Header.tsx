@@ -7,7 +7,10 @@ import styles from './Header.module.scss';
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <Logo />
+      <div className={styles['logo-container']}>
+        <Logo />
+      </div>
+
       <Navigation />
       <ButtonsContainer />
     </header>

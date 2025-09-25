@@ -1,0 +1,6 @@
+@use 'styles/variables' as *;
+@use 'styles/mixins' as *;
+
+.cards-container {
+  @include flex-top(40px);
+}

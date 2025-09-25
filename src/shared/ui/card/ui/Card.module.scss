@@ -1,0 +1,26 @@
+@use 'styles/variables' as *;
+@use 'styles/mixins' as *;
+
+.card {
+  @include flex-column-left-top(10px);
+  width: 100%;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.list {
+  font-size: 20px;
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.footer {
+  font-size: 20px;
+  font-weight: 600;
+}

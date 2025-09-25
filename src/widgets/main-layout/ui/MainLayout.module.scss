@@ -1,9 +1,6 @@
 @use 'styles/variables' as *;
 
-.layout {
-  background-color: rgb(232, 160, 160);
-}
-
 .main {
-  background-color: rgb(139, 240, 222);
+  background-color: $color-background;
+  height: calc(100vh - 17rem);
 }

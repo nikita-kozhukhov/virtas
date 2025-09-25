@@ -3,6 +3,8 @@
 
 .footer {
   @include flex-center;
-  height: 10rem;
+  height: 7rem;
   font-size: 2rem;
+  color: $color-milk;
+  background-color: $secondary-color;
 }

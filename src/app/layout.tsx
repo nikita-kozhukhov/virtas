@@ -7,6 +7,8 @@ import { AuthProvider } from 'shared/providers/SessionProvider';
 import { StoreProvider } from 'shared/store/storeProvider';
 import { MainLayout } from 'widgets/main-layout';
 
+import 'styles/index.scss';
+
 const sourceSansPro = Source_Sans_3({
   subsets: ['latin', 'cyrillic'],
   weight: ['400', '600', '700'],

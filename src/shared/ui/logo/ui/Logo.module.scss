@@ -2,9 +2,9 @@
 @use 'styles/mixins' as *;
 
 .container {
-  @include flex-center;
+  @include flex-left;
 }
 
 .logo {
-  width: 70%;
+  width: 100%;
 }
